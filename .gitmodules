@@ -1,0 +1,6 @@
+[submodule "travelsystem_backend"]
+	path = travelsystem_backend
+	url = https://gitee.com/vifdi/travelsystem_backend.git
+[submodule "travelsystem_frontend"]
+	path = travelsystem_frontend
+	url = https://gitee.com/vifdi/travelsystem_frontend.git
