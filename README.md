@@ -1,13 +1,14 @@
 ﻿# TravelSystem
 
 旅游系统前后端分离项目，仓库由两个子模块组成：
-- `travelsystem_backend`：Django 后端服务
+- `travelsystem_backend`：Django + Django Ninja 后端服务
 - `travelsystem_frontend`：Vue 3 前端应用
 
 ## 技术栈
 
 ### 后端（travelsystem_backend）
 - Django 5.x
+- Django Ninja（API 框架）
 - Django Channels + Redis（实时通信）
 - JWT（`ninja_jwt`）
 - Captcha（验证码）
@@ -37,7 +38,7 @@ python ./manage.py runserver
 
 常用依赖（按需安装）：
 ```bash
-pip install django-cors-headers Pillow django-simple-captcha redis
+pip install django-ninja django-cors-headers Pillow django-simple-captcha redis
 ```
 
 ### 3. 启动前端
